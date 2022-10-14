@@ -11,9 +11,11 @@ def clear():
 
 proxys = open('proxies.txt').readlines()
 bots = len(proxys)
+
 methods = open('methods.gif').readlines()
 bots = len(methods)
 
+@@ -24,6 +25,8 @@ def special():
 
 def si():
     print('\x1b[38;2;233;233;233mWelcome to HaSaTo DDos ')
@@ -23,6 +25,8 @@ def special():
     clear()
     si()
     print("             Siiiiiiiii")
+
+@@ -36,6 +37,7 @@ def menu():
 
 def menu():
     clear()
@@ -36,6 +40,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 in decode
     (result, consumed) = self._buffer_decode(data, self.errors, final)
+
 def methods():
     clear()
     si()
