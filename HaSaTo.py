@@ -34,7 +34,8 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 
 
-
+in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
 def methods():
     clear()
     si()
